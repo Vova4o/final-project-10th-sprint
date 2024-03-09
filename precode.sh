@@ -31,7 +31,7 @@ cat dir2/list.txt >> dir1/summary.txt
 export NAME="Всем студентам"
 
 # Run hello.sh with NAME as argument and append output to summary.txt
-dir2/hello.sh $NAME >> dir1/summary.txt
+dir2/hello.sh "$NAME" >> dir1/summary.txt
 
 # Move and rename summary.txt
 mv dir1/summary.txt "Практическое задание"
